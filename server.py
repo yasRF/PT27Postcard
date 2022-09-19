@@ -3,7 +3,7 @@ try:
     from flask import Flask
     from flask import send_from_directory
 except ImportError:
-    print("You don't have Flask installed, run `$ pip3 install flask` and try again")
+    print("You don't have Flask installed, run `$ p` and try again")
     exit(1)
 
 import os, subprocess
